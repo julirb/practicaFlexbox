@@ -1,0 +1,67 @@
+/* conte */
+.menu{
+    width: 100%;
+    height: 80px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: space-around; /*eje X*/
+    align-items: center;/*eje Y*/
+    background-color: rgb(238, 11, 11);
+}
+/*logo*/
+.menu .logo img{
+    width: 100px;
+    height: 80px;
+}
+/* enlaces */
+.menu .enlaces ul {
+    display: flex;
+    list-style: none;
+}
+.menu .enlaces ul li {
+    margin-right: 10px;
+
+}
+.menu .enlaces  ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    color:aliceblue;
+
+}
+.menu .botones button{
+    background-color: white;
+    color: rgb(245, 9, 60);
+    font-size: 20px;
+}
+/*sesionh inicio*/
+#inicio{
+    width: 100%;
+    height: 600px;
+}
+.slider{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type:x mandatory;
+}
+.slide{
+    flex: none;
+    scroll-snap-align: start;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.slide img{
+    width: 100%;
+    height: auto;
+    margin-top: 500px;
+}
+#personajes{
+    width: 100px;
+    height: 700px;
+    background-color: rgb(236, 170, 170);
+}
